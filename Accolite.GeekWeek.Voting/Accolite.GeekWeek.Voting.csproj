@@ -173,6 +173,7 @@
     <Content Include="Content\img\about\2.jpg" />
     <Content Include="Content\img\about\3.jpg" />
     <Content Include="Content\img\about\4.jpg" />
+    <Content Include="Content\img\Addons-icon.png" />
     <Content Include="Content\img\header-bg old.jpg" />
     <Content Include="Content\img\header-bg.jpg" />
     <Content Include="Content\img\logos\aetuts.jpg" />
@@ -198,6 +199,7 @@
     <Content Include="Content\img\team\1.jpg" />
     <Content Include="Content\img\team\2.jpg" />
     <Content Include="Content\img\team\3.jpg" />
+    <Content Include="Content\img\view.jpg" />
     <Content Include="Content\js\agency.js" />
     <Content Include="Content\js\app.js" />
     <Content Include="Content\js\bootstrap-start-rating.min.js" />
@@ -374,7 +376,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>49300</DevelopmentServerPort>
+          <DevelopmentServerPort>7701</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
