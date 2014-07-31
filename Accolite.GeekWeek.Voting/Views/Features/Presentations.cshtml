@@ -1,0 +1,427 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-U-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <title>Welcome</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="~/Content/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="~/Content/css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="~/Content/css/plugins/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="~/Content/font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!--Datepicker CSS-->
+	<link href="~/Content/datepicker/css/datepicker.css" rel="stylesheet">
+	<link href="~/Content/datepicker/bootstrap-datetimepicker.css" rel="stylesheet">
+
+    
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="loggedIn.html">Welcome user</a>
+            </div>
+            <!-- Top Menu Items -->
+            <ul class="nav navbar-right top-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu message-dropdown">
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-preview">
+                            <a href="#">
+                                <div class="media">
+                                    <span class="pull-left">
+                                        <img class="media-object" src="http://placehold.it/50x50" alt="">
+                                    </span>
+                                    <div class="media-body">
+                                        <h5 class="media-heading"><strong>John Smith</strong>
+                                        </h5>
+                                        <p class="small text-muted"><i class="fa fa-clock-o"></i> Yesterday at 4:32 PM</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur...</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="message-footer">
+                            <a href="#">Read All New Messages</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <ul class="dropdown-menu alert-dropdown">
+                        <li>
+                            <a href="#">Alert Name <span class="label label-default">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-primary">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-success">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-info">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-warning">Alert Badge</span></a>
+                        </li>
+                        <li>
+                            <a href="#">Alert Name <span class="label label-danger">Alert Badge</span></a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">View All</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li id="lstDashboard" class="active">
+                        <a id="lnkDashboard" href="#dashboard"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li id="lstAddPresent">
+                        <a id="lnkaddPresentation" href="#addPresentation" onclick="changeTab('lstAddPresent','lnkaddPresentation','addPresentation')"><i class="fa fa-fw fa-edit"></i>Add Presentation</a>
+                    </li>
+                    <li id="lstRate">
+                        <a id="lnkRate" href="#ratePresentation" onclick="changeTab('lstRate','lnkRate','ratePresentation')"><i class="fa fa-fw fa-edit"></i>Rate Presentation</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid" id="dashboard">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Dashboard 
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li class="active">
+                                <i class="fa fa-dashboard"></i> Recent presentations
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div style=" padding-left:5%;">
+						<h3 class="panel-title"> You can select dates and view presentations given in that period of time, sorted according to the ratings.</he>
+						<div style="margin-top:40px;">	
+							<p>Select period : </p>
+							<div class="container">
+								<div style="height:75px;">
+                                   <table style="width:100%;">
+                                        <tr >
+                                            <td>
+								               <div class='col-md-5'>
+                                                    From   
+										            <div class="form-group">
+											            <div class='input-group date datetimepicker8' data="DateTimePicker" id='datetimepicker8'>
+												            <input type='text' class="form-control" />
+												            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+												            </span>
+											            </div>
+										            </div>
+									            </div>
+                                            </td>
+                                            <td>
+									            <div class='col-md-5'>
+                                                    To
+										            <div class="form-group">
+											            <div class='input-group date datetimepicker9'  data="DateTimePicker" id='datetimepicker9'>
+												            <input type='text' class="form-control" />
+												            <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+												            </span>
+											            </div>
+										            </div>
+									            </div>
+                                            </td>
+                                            <td>
+                                                <button id="viewSearch" class="page-scroll btn btn-xl viewSearch" onclick="displayResults('divSearchResults');">View Presentations</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+								</div>
+							</div>
+                                <div id="divSearchResults" style="display:none;">
+                                    <h2>Search Results</h2>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-hover table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>Title</th>
+                                                    <th>Presenter</th>
+                                                    <th>Average rating</th>
+                                                    <th>Download</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td><input type="radio" name="optionsRadios" id="Radio1" value="option1" /></td>
+                                                    <td>AngularJS</td>
+                                                    <td>ABC</td>
+                                                    <td><input id="inputRating" type="number" data-max="5" data-min="1" class="rating" /></td>
+                                                    <td><a>Download presentation</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><input type="radio" name="optionsRadios" id="Radio2" value="option1" /></td>
+                                                    <td>deisgn patterns</td>
+                                                    <td>LMN</td>
+                                                    <td><input id="Number1" type="number" data-max="5" data-min="1" class="rating" /></td>
+                                                    <td><a>Download presentation</a></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                </div>
+							</div>
+						</div>
+                    </div>
+				
+            <!-- /.container-fluid -->
+            <!--Form-->
+             <div id="addPresentation" class="container-fluid" style="display:none;">
+                    <div style="height:100%;width:800px;">
+                        <form role="form">
+                            <h3 style="padding-bottom:30px;">Add Presentation Details</h3>
+                            <table style="width:100%;height:100%">
+                                <tr style="height:50px;">
+                                    <td><label id="lblDate">Date:</label></td>
+                                    <td>    
+                                        <div class="form-group">
+											<div class='input-group date datetimepicker8' data="DateTimePicker" id='Div1'>
+												<input type='text' class="form-control" />
+												<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+												</span>
+											</div>
+										</div>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="lblTitle">Title:</label>
+                                    </td>
+                                    <td>
+                                        <input class="form-control"  type="text" id="txtTitle"/>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="lblPresenter">Presented By:</label>
+                                    </td>
+                                    <td>
+                                        <input class="form-control" type="text" id="txtPresenter"/>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="lblAttachements">Attachments:</label>
+                                    </td>
+                                    <td>
+                                        <input id="fileUpload" type="file"/>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+            </div>
+        
+                <!--form end-->
+
+        <!--Rate Presentation-->
+        <div id="ratePresentation" class="container-fluid" style="display:none;">
+                    <div style="height:100%;width:800px;">
+                        <form role="form">
+                            <h3 style="padding-bottom:30px;">Rate Presentation</h3>
+                            <table style="width:100%;height:100%">
+                                <tr style="height:50px;">
+                                    <td><label id="Label1">Date:</label></td>
+                                    <td>    
+                                        <div class="form-group">
+											<div class='input-group date datetimepicker8' data="DateTimePicker" id='Div3'>
+												<input type='text' class="form-control" />
+												<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+												</span>
+											</div>
+										</div>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="Label2">Title:</label>
+                                    </td>
+                                    <td>
+                                        <input class="form-control"  type="text" id="Text1"/>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="Label3">Presented By:</label>
+                                    </td>
+                                    <td>
+                                        <input class="form-control" type="text" id="Text2"/>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="Label4">Attachments:</label>
+                                    </td>
+                                    <td>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <a href="file1.htm" target="_blank">file1.html</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <a href="file2.htm" target="_blank">file2.html</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <label id="Label5">Rating:</label>
+                                    </td>
+                                    <td>
+                                        <input id="ratePresent"  type="number" data-max="5" data-min="1" class="rating"/>
+                                    </td>
+                                </tr>
+                                <tr style="height:70px;">
+                                    <td>
+                                        <button id="submitRating" class="page-scroll btn btn-xl">Submit</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <!--Rate Presentation End-->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="~/Content/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+
+    <!-- Morris Charts JavaScript --
+    <script src="~/Content/js/plugins/morris/raphael.min.js"></script>
+    <script src="~/Content/js/plugins/morris/morris.min.js"></script>
+    <script src="~/Content/js/plugins/morris/morris-data.js"></script>
+	
+	<!--Datepicker CSS-->
+	<script src="~/Content/datepicker/js/bootstrap-datepicker.js"></script>
+	
+	<!--Custom Javascript-->
+	<script src="~/Content/js/app.js"></script>
+    <script src="~/Content/js/jquery.19.1.min.js"></script>
+	
+	<!--Start rating-->
+    <script src="~/Content/js/bootstrap-start-rating.min.js"></script>
+</body>
+
+</html>
+
