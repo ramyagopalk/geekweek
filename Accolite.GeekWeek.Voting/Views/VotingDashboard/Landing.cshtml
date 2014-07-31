@@ -347,14 +347,14 @@
                                                     <td><input type="radio" name="optionsRadios" id="Radio1" value="option1" /></td>
                                                     <td>AngularJS</td>
                                                     <td>ABC</td>
-                                                    <td><input id="inputRating" type="number" data-max="5" data-min="1" class="rating" /></td>
+                                                    <td><input id="ratePresent" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="sm" /></td>
                                                     <td><a>Download presentation</a></td>
                                                 </tr>
                                                 <tr>
                                                     <td><input type="radio" name="optionsRadios" id="Radio2" value="option1" /></td>
                                                     <td>deisgn patterns</td>
                                                     <td>LMN</td>
-                                                    <td><input id="Number1" type="number" data-max="5" data-min="1" class="rating" /></td>
+                                                    <td><input id="ratePresent" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="sm" /></td>
                                                     <td> <a href="#ratePresentationsModal" class="portfolio-link" data-toggle="modal">Rate</a></td>
                                                 </tr>
                                             </tbody>
@@ -575,8 +575,8 @@
                                             <thead>
                                                 <tr bgcolor="#66FFFF">
                                                     <th>Title</th>
-                                                    <th>Book Date</th>
-                                                    <th>Pre-requisites?</th>
+                                                    <th class="col-sm-3">Date to Present</th>
+                                                    <th class="col-sm-5">Pre-requisites?</th>
                                                     <th></th>
                                                 </tr>
                                             </thead>
@@ -584,29 +584,29 @@
                                                 <tr>
                                                     <td>AngularJS</td>
                                                     <td><div class="form-group">
-                                    <div class="col-sm-10">
+                                    
                                         <div class='input-group date' id='datetimepicker6'>
-                                        <input type='text' class="form-control" placeholder="Date to Present"/>
+                                        <input type='text' class="form-control col-sm-" placeholder="Book Date"/>
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                                         </span>
                                         </div>
-                                    </div>
+                                    
                                   </div></td>
-                                                    <td><input type="text" class="form-control" id="preRequisite" placeholder="come blank"></td>
+                                                    <td><input type="text" class="form-control col-sm-5" id="preRequisite" placeholder="come blank"></td>
                                                     <td><a href="" class="portfolio-link" data-toggle="modal">Book</a></td>
                                                 </tr>
                                                 <tr>
                                                     <td>q-talkak</td>
                                                    <td><div class="form-group">
-                                    <div class="col-sm-10">
+                                    
                                         <div class='input-group date' id='datetimepicker6'>
-                                        <input type='text' class="form-control" placeholder="Date to Present" />
+                                        <input type='text' class="form-control col-sm-3" placeholder="Book Date" />
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                                         </span>
                                         </div>
-                                    </div>
+                                    
                                   </div></td>
-                                                    <td><input type="text" class="form-control" id="preRequisite" placeholder="homework on"></td>
+                                                    <td><input type="text" class="form-control col-sm-5" id="preRequisite" placeholder="homework on"></td>
                                                     <td><a href="" class="portfolio-link" data-toggle="modal">Book</a></td>
                                                 </tr>
                                             </tbody>
